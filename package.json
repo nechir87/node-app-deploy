@@ -2,7 +2,7 @@
   "name": "deploy-node-app",
   "homepage": "https://nechir87.github.io/node-app-deploy",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
